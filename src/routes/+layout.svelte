@@ -1,17 +1,14 @@
 <script>
+  import { base } from "$app/paths";
   import { page } from "$app/stores";
 </script>
 
 <h1>UEC Yukkuri Project</h1>
 
 <nav>
-  <a href="/" aria-current={$page.url.pathname === "/"}>トップ</a>
-  <a href="/products" aria-current={$page.url.pathname === "/products"}>
-    作ったもの
-  </a>
-  <a href="/members" aria-current={$page.url.pathname === "/members"}>
-    メンバー
-  </a>
+  <a href="{base}/" aria-current={$page.url.pathname === base + "/"}>トップ</a>
+  <a href="{base}/products" aria-current={$page.url.pathname === base + "/products"}>作ったもの</a>
+  <a href="{base}/members" aria-current={$page.url.pathname === base + "/members"}>メンバー</a>
 </nav>
 
 <slot />
