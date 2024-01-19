@@ -17,7 +17,8 @@
   }
 
   img {
-    max-width: 700px;
+    width: 700px;
+    max-width: 100%;
     min-width: 40%;
   }
 
