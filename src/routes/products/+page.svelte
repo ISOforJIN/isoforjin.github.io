@@ -4,6 +4,21 @@
     name="description"
     content="UECゆっくりプロジェクトで開発したソフトウェアの紹介ページです。MinecraftのMODを主に作っています。"
   />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="作ったもの" />
+  <meta property="og:site_name" content="UECゆっくりプロジェクト" />
+  <meta
+    property="og:url"
+    content="https://uecyukkuriproject.github.io/products"
+  />
+  <meta
+    property="og:description"
+    content="UECゆっくりプロジェクトで開発したソフトウェアの紹介ページです。MinecraftのMODを主に作っています。"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="./images/2023-12-07_18.54.02.png" />
+  <meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
 <div>
