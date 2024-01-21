@@ -27,4 +27,9 @@
     text-align: center;
     font-family: "Noto Sans JP", sans-serif;
   }
+  :root {
+    background-image: url(./images/2_20240121190530_1.png);
+    background-size: 25%;
+  }
+
 </style>
