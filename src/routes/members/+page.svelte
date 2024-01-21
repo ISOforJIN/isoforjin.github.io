@@ -1,3 +1,11 @@
+<svelte:head>
+  <title>メンバー | UECゆっくりプロジェクト</title>
+  <meta
+    name="description"
+    content="UECゆっくりプロジェクトのメンバー紹介ページです。"
+  />
+</svelte:head>
+
 <div>メンバー説明</div>
 
 <style>
