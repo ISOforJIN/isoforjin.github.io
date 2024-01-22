@@ -18,7 +18,7 @@
 
   h1 {
     padding-top: 10px;
-    background-color: tomato;
+    background-color: cadetblue;
     color: black;
     -webkit-text-stroke: white 1px;
     text-align: center;
@@ -28,7 +28,7 @@
 
   nav {
     padding: 10px;
-    background-color: #e3e3e3;
+    background-color: #b9b9b9;
     text-align: center;
     font-family: "Noto Sans JP", sans-serif;
   }
