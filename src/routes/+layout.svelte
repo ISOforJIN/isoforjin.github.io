@@ -67,10 +67,10 @@
   }
 
   footer {
-    position: absolute;
-    bottom: 0;
+    position: sticky;
+    top: 100vh;
     width: 100%;
-    height: 4em;
+    height: 5em;
     background-color: cadetblue;
   }
 
