@@ -90,4 +90,9 @@
   a.nav-element[aria-current="true"] {
     border-bottom: 2px solid;
   }
+
+  :root {
+    background-image: url(/images/2_20240121190530_1.png);
+    background-size: 25%;
+  }
 </style>
