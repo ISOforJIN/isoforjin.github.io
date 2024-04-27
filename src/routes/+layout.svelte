@@ -51,7 +51,7 @@
 
   h1 {
     padding-top: 10px;
-    background-color: cadetblue;
+    background-color: steelblue;
     color: black;
     -webkit-text-stroke: white 1px;
     text-align: center;
@@ -61,7 +61,7 @@
 
   nav {
     padding: 10px;
-    background-color: #b9b9b9;
+    background-color: #e3e3e3;
     text-align: center;
     font-family: "Noto Sans JP", sans-serif;
   }
@@ -71,7 +71,7 @@
     top: 100vh;
     width: 100%;
     height: 5em;
-    background-color: cadetblue;
+    background-color: steelblue;
   }
 
   .share_buttons {
@@ -91,8 +91,8 @@
     border-bottom: 2px solid;
   }
 
-  :root {
+  /*:root {
     background-image: url(/images/2_20240121190530_1.png);
     background-size: 25%;
-  }
+  }/*
 </style>
