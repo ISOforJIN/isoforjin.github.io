@@ -9,24 +9,18 @@
   <a
     href="{base}/"
     aria-current={$page.url.pathname === base + "/"}
-    class="nav-element"
+    class="nav-element">トップ</a
   >
-    トップ
-  </a>
   <a
     href="{base}/maidillager"
     aria-current={$page.url.pathname === base + "/maidillager"}
-    class="nav-element"
+    class="nav-element">MaidIllager</a
   >
-    MaidIllager
-  </a>
   <a
     href="{base}/whistlemod"
     aria-current={$page.url.pathname === base + "/whistlemod"}
-    class="nav-element"
+    class="nav-element">WhistleMod</a
   >
-    WhistleMod
-  </a>
 </nav>
 
 <slot />

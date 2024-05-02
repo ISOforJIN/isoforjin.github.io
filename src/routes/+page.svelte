@@ -16,15 +16,35 @@
   <meta property="og:type" content="website" />
 </svelte:head>
 
-<div>
-  <p>ゆっくりプロジェクトの公式サイトです。</p>
-  <a href="https://github.com/UECYukkuriProject">GitHub</a>
+<div class="main">
+  <div class="explain">
+    <p>ゆっくりプロジェクトの公式サイトです。</p>
+  </div>
+
+  <h2>UECゆっくりプロジェクトとは？</h2>
+  <div class="explain">
+    <p>調布に縁がある人が集まったソフトウェア開発プロジェクトです。</p>
+    <p>興味があるものを自由に開発しています。</p>
+  </div>
+
+  <h2>GitHub</h2>
+  <div class="explain">
+    <a href="https://github.com/UECYukkuriProject"
+      >https://github.com/UECYukkuriProject</a
+    >
+  </div>
 </div>
 
 <style>
-  div {
-    margin: 1em;
+  div.main {
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
     text-align: center;
     font-family: "Noto Sans JP", sans-serif;
+    color: rgb(0, 50, 100);
+  }
+
+  div.explain {
+    margin-bottom: 1em;
   }
 </style>
