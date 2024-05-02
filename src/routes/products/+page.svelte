@@ -23,14 +23,13 @@
 
 <div>
   <div>
-    <h2>Whistle Mod</h2>
+    <h1>Whistle Mod</h1>
     <img alt="referee_whistle" src="./images/referee_whistle.png" /><br />
-    <a href="https://modrinth.com/mod/whistle">
-      配布サイト(modrinth)
-    </a>
+    <a href="https://modrinth.com/mod/whistle"> 配布サイト(modrinth) </a>
   </div>
 
-  <h2>MaidIllager ~邪悪な村人の見た目が若干変わるMOD~</h2>
+  <h1>MaidIllager</h1>
+  <h2>~邪悪な村人の見た目が若干変わるMOD~</h2>
   <img alt="2023-12-07_18.54.02" src="./images/2023-12-07_18.54.02.png" /><br />
   <a href="https://github.com/UECYukkuriProject/MaidIllagerForge/wiki">
     Forge版
@@ -42,7 +41,7 @@
 
 <style>
   div {
-    color:rgb(0, 50, 100);
+    color: rgb(0, 50, 100);
     margin: 1.5em;
     text-align: center;
     font-family: "Noto Sans JP", sans-serif;

@@ -3,7 +3,7 @@
   import { page } from "$app/stores";
 </script>
 
-<h1>UEC Yukkuri Project</h1>
+<header>UEC Yukkuri Project</header>
 
 <nav>
   <a
@@ -49,7 +49,8 @@
 <style>
   @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
 
-  h1 {
+  header {
+    font-size: 2em;
     padding-top: 10px;
     background-color: steelblue;
     color: black;
