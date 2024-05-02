@@ -14,18 +14,18 @@
     トップ
   </a>
   <a
-    href="{base}/products"
-    aria-current={$page.url.pathname === base + "/products"}
+    href="{base}/maidillager"
+    aria-current={$page.url.pathname === base + "/maidillager"}
     class="nav-element"
   >
-    作ったもの
+    MaidIllager
   </a>
   <a
-    href="{base}/members"
-    aria-current={$page.url.pathname === base + "/members"}
+    href="{base}/whistlemod"
+    aria-current={$page.url.pathname === base + "/whistlemod"}
     class="nav-element"
   >
-    メンバー
+    WhistleMod
   </a>
 </nav>
 
