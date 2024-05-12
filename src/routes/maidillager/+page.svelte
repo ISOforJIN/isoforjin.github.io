@@ -1,20 +1,20 @@
 <svelte:head>
-  <title>MaidIllager | UECゆっくりプロジェクト</title>
+  <title>MaidIllager | ゆっくりプロジェクト</title>
   <meta
     name="description"
-    content="UECゆっくりプロジェクトで開発したMinecraft Mod &quot;MaidIllager&quot;の紹介ページです。"
+    content="ゆっくりプロジェクトで開発したMinecraft Mod &quot;MaidIllager&quot;の紹介ページです。"
   />
 
   <!-- Open Graph -->
   <meta property="og:title" content="MaidIllager" />
-  <meta property="og:site_name" content="UECゆっくりプロジェクト" />
+  <meta property="og:site_name" content="ゆっくりプロジェクト" />
   <meta
     property="og:url"
-    content="https://uecyukkuriproject.github.io/maidillager"
+    content="https://yukkuriproject.github.io/maidillager"
   />
   <meta
     property="og:description"
-    content="UECゆっくりプロジェクトで開発したMinecraft Mod &quot;MaidIllager&quot;の紹介ページです。"
+    content="ゆっくりプロジェクトで開発したMinecraft Mod &quot;MaidIllager&quot;の紹介ページです。"
   />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="./images/2023-12-07_18.54.02.png" />
@@ -54,14 +54,14 @@
     <p>対応バージョンについてもこちらを確認してください。</p>
   </div>
   <a
-    href="https://github.com/UECYukkuriProject/MaidIllagerForge/wiki"
+    href="https://github.com/YukkuriProject/MaidIllagerForge/wiki"
     class="link-button"
     id="forge"
   >
     Forge版
   </a>
   <a
-    href="https://github.com/UECYukkuriProject/MaidIllagerFabric/wiki"
+    href="https://github.com/YukkuriProject/MaidIllagerFabric/wiki"
     class="link-button"
     id="fabric"
   >

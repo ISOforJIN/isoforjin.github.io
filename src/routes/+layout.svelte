@@ -3,7 +3,7 @@
   import { page } from "$app/stores";
 </script>
 
-<header>UEC Yukkuri Project</header>
+<header>Yukkuri Project</header>
 
 <nav>
   <a

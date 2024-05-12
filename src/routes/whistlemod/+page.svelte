@@ -1,20 +1,20 @@
 <svelte:head>
-  <title>Whistle Mod | UECゆっくりプロジェクト</title>
+  <title>Whistle Mod | ゆっくりプロジェクト</title>
   <meta
     name="description"
-    content="UECゆっくりプロジェクトで開発したMinecraft Mod &quot;Whistle Mod&quot;の紹介ページです。"
+    content="ゆっくりプロジェクトで開発したMinecraft Mod &quot;Whistle Mod&quot;の紹介ページです。"
   />
 
   <!-- Open Graph -->
   <meta property="og:title" content="Whistle Mod" />
-  <meta property="og:site_name" content="UECゆっくりプロジェクト" />
+  <meta property="og:site_name" content="ゆっくりプロジェクト" />
   <meta
     property="og:url"
-    content="https://uecyukkuriproject.github.io/whistlemod"
+    content="https://yukkuriproject.github.io/whistlemod"
   />
   <meta
     property="og:description"
-    content="UECゆっくりプロジェクトで開発したMinecraft Mod &quot;Whistle Mod&quot;の紹介ページです。"
+    content="ゆっくりプロジェクトで開発したMinecraft Mod &quot;Whistle Mod&quot;の紹介ページです。"
   />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="./images/referee_whistle.png" />

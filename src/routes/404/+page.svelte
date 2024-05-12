@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-  <title>UECゆっくりプロジェクト</title>
+  <title>ゆっくりプロジェクト</title>
   <meta
     name="description"
     content="調布に縁がある人が集まったソフトウェア開発プロジェクトです。興味があるものを自由に開発しています。"
@@ -11,8 +11,8 @@
 
   <!-- Open Graph -->
   <meta property="og:title" content="メンバー" />
-  <meta property="og:site_name" content="UECゆっくりプロジェクト" />
-  <meta property="og:url" content="https://uecyukkuriproject.github.io" />
+  <meta property="og:site_name" content="ゆっくりプロジェクト" />
+  <meta property="og:url" content="https://yukkuriproject.github.io" />
   <meta
     property="og:description"
     content="調布に縁がある人が集まったソフトウェア開発プロジェクトです。興味があるものを自由に開発しています。"
