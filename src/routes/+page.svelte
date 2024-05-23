@@ -29,9 +29,13 @@
 
   <h2>GitHub</h2>
   <div class="explain">
-    <a href="https://github.com/YukkuriProject"
-      >https://github.com/YukkuriProject</a
+    <a
+      href="https://github.com/YukkuriProject"
+      target="_blank"
+      rel="noopener noreferrer"
     >
+      https://github.com/YukkuriProject
+    </a>
   </div>
 </div>
 
