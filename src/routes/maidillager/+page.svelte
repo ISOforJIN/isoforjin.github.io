@@ -33,15 +33,13 @@
       <a
         href="https://github.com/SistrScarlet/LittleMaidModelLoader-Architectury"
         target="_blank"
-        rel="noopener noreferrer"
-      >
-        LittleMaidModelLoader-Architectury
-      </a>のテクスチャ画像を改変の上使用しています。
+        rel="noopener noreferrer">LittleMaidModelLoader-Architectury</a
+      >のテクスチャ画像を改変の上使用しています。
     </p>
     <p>
-      <a href="https://amitaro.net/" target="_blank" rel="noopener noreferrer">
-        あみたろの声素材工房様
-      </a>の音声を使用しています。
+      <a href="https://amitaro.net/" target="_blank" rel="noopener noreferrer"
+        >あみたろの声素材工房様</a
+      >の音声を使用しています。
     </p>
   </div>
 
@@ -61,19 +59,15 @@
     class="link-button"
     id="forge"
     target="_blank"
-    rel="noopener noreferrer"
+    rel="noopener noreferrer">Forge版</a
   >
-    Forge版
-  </a>
   <a
     href="https://github.com/YukkuriProject/MaidIllagerFabric/wiki"
     class="link-button"
     id="fabric"
     target="_blank"
-    rel="noopener noreferrer"
+    rel="noopener noreferrer">Fabric版</a
   >
-    Fabric版
-  </a>
 </div>
 
 <style>
