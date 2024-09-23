@@ -10,7 +10,7 @@
   />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="メンバー" />
+  <meta property="og:title" content="ページが見つかりません" />
   <meta property="og:site_name" content="ゆっくりプロジェクト" />
   <meta property="og:url" content="https://yukkuriproject.github.io" />
   <meta

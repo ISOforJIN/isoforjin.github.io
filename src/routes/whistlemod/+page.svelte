@@ -31,20 +31,29 @@
       document.createElement("fewa");
     </script>
     <h2>販売ページ(無料)</h2>
-    <br>
+    <br />
     <a href="https://modrinth.com/mod/whistle" class="link-button">Modrinth</a>
-    <br>
-    <br>
+    <br />
+    <br />
     <h2>Repositories</h2>
-    <br>
-    <a href="https://github.com/UECYukkuriProject/WhistleMod" class="link-button">Forge</a>
-    <a href="https://github.com/UECYukkuriProject/WhistleModFabric" class="link-button">Fabric</a>
-    <a href="https://github.com/UECYukkuriProject/WhistleModNeoForge" class="link-button">NeoForge</a>
-    <br>
-    <br>
-    <hr>
+    <br />
+    <a
+      href="https://github.com/UECYukkuriProject/WhistleMod"
+      class="link-button">Forge</a
+    >
+    <a
+      href="https://github.com/UECYukkuriProject/WhistleModFabric"
+      class="link-button">Fabric</a
+    >
+    <a
+      href="https://github.com/UECYukkuriProject/WhistleModNeoForge"
+      class="link-button">NeoForge</a
+    >
+    <br />
+    <br />
+    <hr />
     このmodはrensatopcによって作られました。
-    <br>
+    <br />
     This mod has created by rensatopc.
   </div>
 </div>
