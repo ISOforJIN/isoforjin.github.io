@@ -21,6 +21,11 @@
     aria-current={$page.url.pathname === base + "/whistlemod"}
     class="nav-element">WhistleMod</a
   >
+  <a
+    href="{base}/kendomod"
+    aria-current={$page.url.pathname === base + "/kendomod"}
+    class="nav-element">剣道Mod</a
+  >
 </nav>
 
 <slot />
