@@ -17,14 +17,14 @@
     content="ゆっくりプロジェクトで開発したMinecraft Mod &quot;剣道Mod&quot;の紹介ページです。"
   />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="./images/2024-10-10_18.14.18.png" />
+  <meta property="og:image" content="./images/2024-11-03_20.19.09.png" />
   <meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
 <div class="main">
   <h1>剣道Mod(開発中)</h1>
   <h2>~Minecraftで剣道ができるMod~</h2>
-  <img alt="2023-12-07_18.54.02" src="./images/2024-10-10_18.14.18.png" />
+  <img alt="2024-11-03_20.19.09" src="./images/2024-11-03_20.19.09.png" />
 
   <h2>剣道Modとは</h2>
   <div class="explain">

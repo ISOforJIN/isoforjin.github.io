@@ -12,6 +12,11 @@
     class="nav-element">トップ</a
   >
   <a
+    href="{base}/kendomod"
+    aria-current={$page.url.pathname === base + "/kendomod"}
+    class="nav-element">剣道Mod</a
+  >
+  <a
     href="{base}/maidillager"
     aria-current={$page.url.pathname === base + "/maidillager"}
     class="nav-element">MaidIllager</a
@@ -20,11 +25,6 @@
     href="{base}/whistlemod"
     aria-current={$page.url.pathname === base + "/whistlemod"}
     class="nav-element">WhistleMod</a
-  >
-  <a
-    href="{base}/kendomod"
-    aria-current={$page.url.pathname === base + "/kendomod"}
-    class="nav-element">剣道Mod</a
   >
 </nav>
 
