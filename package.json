@@ -22,5 +22,8 @@
 	"type": "module",
 	"volta": {
 		"node": "22.1.0"
+	},
+	"dependencies": {
+		"svelte-carousel": "^1.0.25"
 	}
 }

@@ -1,3 +1,7 @@
+<script>
+  import Carousel from "svelte-carousel";
+</script>
+
 <svelte:head>
   <title>MaidIllager | ゆっくりプロジェクト</title>
   <meta
@@ -24,7 +28,18 @@
 <div class="main">
   <h1>MaidIllager</h1>
   <h2>~邪悪な村人の見た目が若干変わるMod~</h2>
-  <img alt="2023-12-07_18.54.02" src="./images/2023-12-07_18.54.02.png" />
+  <div id="pictures">
+    <Carousel autoplay arrows={false} autoplayDuration={2000}>
+      <img alt="2023-12-07_18.54.02" src="./images/2023-12-07_18.54.02.png" />
+      <img alt="2023-07-13_19.33.08" src="./images/2023-07-13_19.33.08.png" />
+      <img alt="2024-01-01_20.23.24" src="./images/2024-01-01_20.23.24.png" />
+      <img
+        alt="2023-07-13_19.35.40_2"
+        src="./images/2023-07-13_19.35.40_2.png"
+      />
+      <img alt="2024-01-21_01.08.49" src="./images/2024-01-21_01.08.49.png" />
+    </Carousel>
+  </div>
 
   <h2>MaidIllagerとは</h2>
   <div class="explain">
@@ -89,6 +104,14 @@
 
   #fabric {
     color: rgb(217, 87, 0);
+  }
+
+  #pictures {
+    margin: auto;
+    text-align: center;
+    width: 700px;
+    max-width: 100%;
+    min-width: 40%;
   }
 
   img {
