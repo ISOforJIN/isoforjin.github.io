@@ -1,4 +1,5 @@
 <script>
+  import { browser } from "$app/environment";
   import Carousel from "svelte-carousel";
 </script>
 
@@ -28,18 +29,20 @@
 <div class="main">
   <h1>MaidIllager</h1>
   <h2>~邪悪な村人の見た目が若干変わるMod~</h2>
-  <div id="pictures">
-    <Carousel autoplay arrows={false} autoplayDuration={2000}>
-      <img alt="2023-12-07_18.54.02" src="./images/2023-12-07_18.54.02.png" />
-      <img alt="2023-07-13_19.33.08" src="./images/2023-07-13_19.33.08.png" />
-      <img alt="2024-01-01_20.23.24" src="./images/2024-01-01_20.23.24.png" />
-      <img
-        alt="2023-07-13_19.35.40_2"
-        src="./images/2023-07-13_19.35.40_2.png"
-      />
-      <img alt="2024-01-21_01.08.49" src="./images/2024-01-21_01.08.49.png" />
-    </Carousel>
-  </div>
+  {#if browser}
+    <div id="pictures">
+      <Carousel autoplay arrows={false} autoplayDuration={2000}>
+        <img alt="2023-12-07_18.54.02" src="./images/2023-12-07_18.54.02.png" />
+        <img alt="2023-07-13_19.33.08" src="./images/2023-07-13_19.33.08.png" />
+        <img alt="2024-01-01_20.23.24" src="./images/2024-01-01_20.23.24.png" />
+        <img
+          alt="2023-07-13_19.35.40_2"
+          src="./images/2023-07-13_19.35.40_2.png"
+        />
+        <img alt="2024-01-21_01.08.49" src="./images/2024-01-21_01.08.49.png" />
+      </Carousel>
+    </div>
+  {/if}
 
   <h2>MaidIllagerとは</h2>
   <div class="explain">
