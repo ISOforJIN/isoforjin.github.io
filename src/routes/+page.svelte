@@ -70,7 +70,7 @@
   </div>
 
   <a
-    href="https://github.com/YukkuriProject/kendo-mod"
+    href="https://github.com/YukkuriProject"
     class="link-button"
     id="kendo"
     target="_blank"
