@@ -1,3 +1,9 @@
+<script>
+  import { base } from "$app/paths";
+  import { browser } from "$app/environment";
+  import Carousel from "svelte-carousel";
+</script>
+
 <svelte:head>
   <title>ゆっくりプロジェクト</title>
   <meta
@@ -24,22 +30,52 @@
     <p>ゆっくりプロジェクトの公式サイトです。</p>
   </div>
 
+  {#if browser}
+    <div class="pictures">
+      <Carousel
+        autoplay
+        autoplayDuration={2000}
+        autoplayProgressVisible
+        pauseOnFocus
+      >
+        <a class="pictures" href="{base}/kendomod"
+          ><img
+            class="pictures"
+            alt="2024-11-03_20.19.09"
+            src="./images/2024-11-03_20.19.09.png"
+          /></a
+        >
+        <a class="pictures" href="{base}/maidillager"
+          ><img
+            class="pictures"
+            alt="2024-01-21_01.08.49"
+            src="./images/2024-01-21_01.08.49.png"
+          /></a
+        >
+        <a class="pictures" href="{base}/whistlemod"
+          ><img
+            class="pictures"
+            alt="referee_whistle_resized"
+            src="./images/referee_whistle_resized.png"
+          /></a
+        >
+      </Carousel>
+    </div>
+  {/if}
+
   <h2>ゆっくりプロジェクトとは？</h2>
   <div class="explain">
     <p>調布に縁がある人が集まったソフトウェア開発プロジェクトです。</p>
     <p>興味があるものを自由に開発しています。</p>
   </div>
 
-  <h2>GitHub</h2>
-  <div class="explain">
-    <a
-      href="https://github.com/YukkuriProject"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      https://github.com/YukkuriProject
-    </a>
-  </div>
+  <a
+    href="https://github.com/YukkuriProject/kendo-mod"
+    class="link-button"
+    id="kendo"
+    target="_blank"
+    rel="noopener noreferrer">GitHub</a
+  >
 </div>
 
 <style>
@@ -53,5 +89,25 @@
 
   div.explain {
     margin-bottom: 1em;
+  }
+
+  .link-button {
+    margin: auto 2em auto;
+    padding: 0.1em;
+    font-size: 2em;
+    border: solid;
+    border-radius: 0.3em;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Noto Sans JP", sans-serif;
+    color: rgb(17, 17, 117);
+  }
+
+  .pictures {
+    margin: auto;
+    text-align: center;
+    width: 700px;
+    max-width: 100%;
+    min-width: 40%;
   }
 </style>
