@@ -3,7 +3,7 @@
   import { page } from "$app/stores";
 </script>
 
-<header>Yukkuri Project</header>
+<header>ISOJIN</header>
 
 <nav>
   <a

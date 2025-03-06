@@ -1,20 +1,20 @@
 <svelte:head>
-  <title>剣道Mod | ゆっくりプロジェクト</title>
+  <title>剣道Mod | ISOJIN</title>
   <meta
     name="description"
-    content="ゆっくりプロジェクトで開発したMinecraft Mod &quot;MaidIllager&quot;の紹介ページです。"
+    content="ISOJINで開発したMinecraft Mod &quot;MaidIllager&quot;の紹介ページです。"
   />
 
   <!-- Open Graph -->
   <meta property="og:title" content="剣道Mod" />
-  <meta property="og:site_name" content="ゆっくりプロジェクト" />
+  <meta property="og:site_name" content="ISOJIN" />
   <meta
     property="og:url"
     content="https://yukkuriproject.github.io/maidillager"
   />
   <meta
     property="og:description"
-    content="ゆっくりプロジェクトで開発したMinecraft Mod &quot;剣道Mod&quot;の紹介ページです。"
+    content="ISOJINで開発したMinecraft Mod &quot;剣道Mod&quot;の紹介ページです。"
   />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="./images/2024-11-03_20.19.09.png" />
