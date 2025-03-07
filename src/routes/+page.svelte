@@ -5,18 +5,15 @@
 </script>
 
 <svelte:head>
-  <title>ゆっくりプロジェクト</title>
+  <title>ISOJIN</title>
   <meta
     name="description"
     content="調布に縁がある人が集まったソフトウェア開発プロジェクトです。興味があるものを自由に開発しています。"
   />
 
   <!-- Open Graph -->
-  <meta
-    property="og:title"
-    content="ゆっくりプロジェクト公式サイトへようこそ"
-  />
-  <meta property="og:site_name" content="ゆっくりプロジェクト" />
+  <meta property="og:title" content="ISOJIN公式サイトへようこそ" />
+  <meta property="og:site_name" content="ISOJIN" />
   <meta property="og:url" content="https://yukkuriproject.github.io" />
   <meta
     property="og:description"
@@ -27,7 +24,7 @@
 
 <div class="main">
   <div class="explain">
-    <p>ゆっくりプロジェクトの公式サイトです。</p>
+    <p>ISOJINの公式サイトです。</p>
   </div>
 
   {#if browser}
@@ -63,7 +60,7 @@
     </div>
   {/if}
 
-  <h2>ゆっくりプロジェクトとは？</h2>
+  <h2>ISOJINとは？</h2>
   <div class="explain">
     <p>調布に縁がある人が集まったソフトウェア開発プロジェクトです。</p>
     <p>興味があるものを自由に開発しています。</p>

@@ -4,22 +4,22 @@
 </script>
 
 <svelte:head>
-  <title>MaidIllager | ゆっくりプロジェクト</title>
+  <title>MaidIllager | ISOJIN</title>
   <meta
     name="description"
-    content="ゆっくりプロジェクトで開発したMinecraft Mod &quot;MaidIllager&quot;の紹介ページです。"
+    content="ISOJINで開発したMinecraft Mod &quot;MaidIllager&quot;の紹介ページです。"
   />
 
   <!-- Open Graph -->
   <meta property="og:title" content="MaidIllager" />
-  <meta property="og:site_name" content="ゆっくりプロジェクト" />
+  <meta property="og:site_name" content="ISOJIN" />
   <meta
     property="og:url"
     content="https://yukkuriproject.github.io/maidillager"
   />
   <meta
     property="og:description"
-    content="ゆっくりプロジェクトで開発したMinecraft Mod &quot;MaidIllager&quot;の紹介ページです。"
+    content="ISOJINで開発したMinecraft Mod &quot;MaidIllager&quot;の紹介ページです。"
   />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="./images/2023-12-07_18.54.02.png" />

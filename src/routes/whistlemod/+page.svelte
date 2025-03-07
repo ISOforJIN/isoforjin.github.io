@@ -1,20 +1,20 @@
 <svelte:head>
-  <title>Whistle Mod | ゆっくりプロジェクト</title>
+  <title>Whistle Mod | ISOJIN</title>
   <meta
     name="description"
-    content="ゆっくりプロジェクトで開発したMinecraft Mod &quot;Whistle Mod&quot;の紹介ページです。"
+    content="ISOJINで開発したMinecraft Mod &quot;Whistle Mod&quot;の紹介ページです。"
   />
 
   <!-- Open Graph -->
   <meta property="og:title" content="Whistle Mod" />
-  <meta property="og:site_name" content="ゆっくりプロジェクト" />
+  <meta property="og:site_name" content="ISOJIN" />
   <meta
     property="og:url"
     content="https://yukkuriproject.github.io/whistlemod"
   />
   <meta
     property="og:description"
-    content="ゆっくりプロジェクトで開発したMinecraft Mod &quot;Whistle Mod&quot;の紹介ページです。"
+    content="ISOJINで開発したMinecraft Mod &quot;Whistle Mod&quot;の紹介ページです。"
   />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="./images/referee_whistle.png" />
