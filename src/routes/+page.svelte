@@ -67,7 +67,7 @@
   </div>
 
   <a
-    href="https://github.com/YukkuriProject"
+    href="https://github.com/ISOforJIN"
     class="link-button"
     id="kendo"
     target="_blank"
