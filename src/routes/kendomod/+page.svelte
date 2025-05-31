@@ -30,13 +30,24 @@
   <div class="explain">
     <p>Minecraftの世界に剣道を導入するModです。</p>
   </div>
-  <a
-    href="https://github.com/YukkuriProject/kendo-mod"
-    class="link-button"
-    id="kendo"
-    target="_blank"
-    rel="noopener noreferrer">GitHub</a
-  >
+  <div class="link">
+    <a
+      href="https://github.com/ISOforJIN/kendo-mod"
+      class="link-button"
+      id="kendo"
+      target="_blank"
+      rel="noopener noreferrer">GitHub</a
+    >
+  </div>
+  <div class="link">
+    <a
+      href="https://github.com/ISOforJIN/kendo-mod-multiloader"
+      class="link-button"
+      id="kendo-multiloader"
+      target="_blank"
+      rel="noopener noreferrer">GitHub(Multiloader)</a
+    >
+  </div>
 </div>
 
 <style>
@@ -52,7 +63,8 @@
     margin-bottom: 1em;
   }
 
-  #kendo {
+  #kendo,
+  #kendo-multiloader {
     color: rgb(17, 17, 117);
   }
 
@@ -71,6 +83,10 @@
     text-align: center;
     text-decoration: none;
     font-family: "Noto Sans JP", sans-serif;
+  }
+
+  .link {
+    margin-top: 1.25em;
   }
 
   h2 {
