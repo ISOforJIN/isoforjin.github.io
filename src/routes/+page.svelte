@@ -12,7 +12,7 @@
   />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="ISOJIN公式サイトへようこそ" />
+  <meta property="og:title" content="ソフトウェア開発プロジェクト ISOJIN" />
   <meta property="og:site_name" content="ISOJIN" />
   <meta property="og:url" content="https://yukkuriproject.github.io" />
   <meta
@@ -24,7 +24,7 @@
 
 <div class="main">
   <div class="explain">
-    <p>ISOJINの公式サイトです。</p>
+    <p>ソフトウェア開発プロジェクト ISOJIN の公式サイトです。</p>
   </div>
 
   {#if browser}
@@ -73,6 +73,14 @@
     target="_blank"
     rel="noopener noreferrer">GitHub</a
   >
+
+  <div class="caution">
+    <p>
+      ISOJINはInteractive Supply Organization for Japan Information
+      Networkの略です。
+    </p>
+    <strong>うがい薬とは関係ありません。</strong>
+  </div>
 </div>
 
 <style>
@@ -86,6 +94,14 @@
 
   div.explain {
     margin-bottom: 1em;
+  }
+
+  div.caution {
+    margin-top: 1em;
+  }
+
+  strong {
+    color: crimson;
   }
 
   .link-button {
