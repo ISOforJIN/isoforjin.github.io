@@ -21,11 +21,6 @@
     aria-current={$page.url.pathname === base + "/maidillager"}
     class="nav-element">MaidIllager</a
   >
-  <a
-    href="{base}/whistlemod"
-    aria-current={$page.url.pathname === base + "/whistlemod"}
-    class="nav-element">WhistleMod</a
-  >
 </nav>
 
 <slot />
