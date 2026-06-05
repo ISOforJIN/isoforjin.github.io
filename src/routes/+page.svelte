@@ -49,13 +49,6 @@
             src="./images/2024-01-21_01.08.49.png"
           /></a
         >
-        <a class="pictures" href="{base}/whistlemod"
-          ><img
-            class="pictures"
-            alt="referee_whistle_resized"
-            src="./images/referee_whistle_resized.png"
-          /></a
-        >
       </Carousel>
     </div>
   {/if}
